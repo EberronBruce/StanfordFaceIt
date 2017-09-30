@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7A0ED0FC1F21747600C1AB73 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED0FB1F21747600C1AB73 /* FacialExpression.swift */; };
+		7A36D70C1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A36D70B1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift */; };
+		7A7845311F7EB52100B95C52 /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7845301F7EB52100B95C52 /* EyeView.swift */; };
 		7ACCBFD01F1FE57C00A32D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCBFCF1F1FE57C00A32D71 /* AppDelegate.swift */; };
 		7ACCBFD21F1FE57C00A32D71 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCBFD11F1FE57C00A32D71 /* FaceViewController.swift */; };
 		7ACCBFD51F1FE57C00A32D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACCBFD31F1FE57C00A32D71 /* Main.storyboard */; };
@@ -15,10 +17,13 @@
 		7ACCBFDA1F1FE57C00A32D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACCBFD81F1FE57C00A32D71 /* LaunchScreen.storyboard */; };
 		7ACCBFE31F1FE84300A32D71 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCBFE21F1FE84300A32D71 /* FaceView.swift */; };
 		7ADFD0E51F23DBDC009BE5B7 /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADFD0E41F23DBDC009BE5B7 /* EmotionsViewController.swift */; };
+		7ADFD0E71F23FB2B009BE5B7 /* VCLLoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADFD0E61F23FB2B009BE5B7 /* VCLLoggingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A0ED0FB1F21747600C1AB73 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
+		7A36D70B1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingFaceViewController.swift; sourceTree = "<group>"; };
+		7A7845301F7EB52100B95C52 /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
 		7ACCBFCC1F1FE57C00A32D71 /* Faceit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faceit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACCBFCF1F1FE57C00A32D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ACCBFD11F1FE57C00A32D71 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		7ACCBFDB1F1FE57C00A32D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACCBFE21F1FE84300A32D71 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		7ADFD0E41F23DBDC009BE5B7 /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
+		7ADFD0E61F23FB2B009BE5B7 /* VCLLoggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLLoggingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +69,11 @@
 				7ADFD0E41F23DBDC009BE5B7 /* EmotionsViewController.swift */,
 				7ACCBFD11F1FE57C00A32D71 /* FaceViewController.swift */,
 				7ACCBFE21F1FE84300A32D71 /* FaceView.swift */,
+				7A36D70B1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift */,
 				7ACCBFD31F1FE57C00A32D71 /* Main.storyboard */,
 				7A0ED0FB1F21747600C1AB73 /* FacialExpression.swift */,
+				7ADFD0E61F23FB2B009BE5B7 /* VCLLoggingViewController.swift */,
+				7A7845301F7EB52100B95C52 /* EyeView.swift */,
 				7ACCBFE11F1FE5B600A32D71 /* Supporting Files */,
 			);
 			path = Faceit;
@@ -108,12 +117,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Red Raven COmputing";
 				TargetAttributes = {
 					7ACCBFCB1F1FE57C00A32D71 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = V3GFNATBC5;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -154,10 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADFD0E71F23FB2B009BE5B7 /* VCLLoggingViewController.swift in Sources */,
 				7ACCBFD21F1FE57C00A32D71 /* FaceViewController.swift in Sources */,
 				7A0ED0FC1F21747600C1AB73 /* FacialExpression.swift in Sources */,
 				7ADFD0E51F23DBDC009BE5B7 /* EmotionsViewController.swift in Sources */,
+				7A36D70C1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift in Sources */,
 				7ACCBFD01F1FE57C00A32D71 /* AppDelegate.swift in Sources */,
+				7A7845311F7EB52100B95C52 /* EyeView.swift in Sources */,
 				7ACCBFE31F1FE84300A32D71 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,7 +207,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -202,7 +217,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -245,7 +264,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -253,7 +274,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
