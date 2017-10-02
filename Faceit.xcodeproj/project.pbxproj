@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0C41EB1F8232D8004B4918 /* ExpressionEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C41EA1F8232D8004B4918 /* ExpressionEditorViewController.swift */; };
 		7A0ED0FC1F21747600C1AB73 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0ED0FB1F21747600C1AB73 /* FacialExpression.swift */; };
 		7A36D70C1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A36D70B1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift */; };
 		7A7845311F7EB52100B95C52 /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7845301F7EB52100B95C52 /* EyeView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0C41EA1F8232D8004B4918 /* ExpressionEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionEditorViewController.swift; sourceTree = "<group>"; };
 		7A0ED0FB1F21747600C1AB73 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		7A36D70B1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingFaceViewController.swift; sourceTree = "<group>"; };
 		7A7845301F7EB52100B95C52 /* EyeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				7ACCBFD11F1FE57C00A32D71 /* FaceViewController.swift */,
 				7ACCBFE21F1FE84300A32D71 /* FaceView.swift */,
 				7A36D70B1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift */,
+				7A0C41EA1F8232D8004B4918 /* ExpressionEditorViewController.swift */,
 				7ACCBFD31F1FE57C00A32D71 /* Main.storyboard */,
 				7A0ED0FB1F21747600C1AB73 /* FacialExpression.swift */,
 				7ADFD0E61F23FB2B009BE5B7 /* VCLLoggingViewController.swift */,
@@ -170,6 +173,7 @@
 				7ADFD0E51F23DBDC009BE5B7 /* EmotionsViewController.swift in Sources */,
 				7A36D70C1F5DCD1C00DCF485 /* BlinkingFaceViewController.swift in Sources */,
 				7ACCBFD01F1FE57C00A32D71 /* AppDelegate.swift in Sources */,
+				7A0C41EB1F8232D8004B4918 /* ExpressionEditorViewController.swift in Sources */,
 				7A7845311F7EB52100B95C52 /* EyeView.swift in Sources */,
 				7ACCBFE31F1FE84300A32D71 /* FaceView.swift in Sources */,
 			);
